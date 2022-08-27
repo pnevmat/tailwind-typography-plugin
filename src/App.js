@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <>
       <main className="lg:relative lg:max-w-7xl lg:mx-auto">
         <div className="h-64 sm:h-72 md:h-96 lg:absolute lg:right-0 lg:w-1/2 lg:h-full">
           <img
@@ -33,7 +33,7 @@ function App() {
         </div>
       </main>
 
-      <div className="px-5 py-20 mx-auto prose prose-blue md:px-0 lg:prose-lg lg:mt-24 dark:prose-dark">
+      <div className="px-5 py-20 mx-auto prose prose-blue dark:prose-dark md:px-0 lg:prose-lg lg:mt-24 dark:prose-dark">
         <hr className="w-20 mx-auto" />
 
         <h2>What's this?</h2>
@@ -120,7 +120,7 @@ function App() {
           if you have any issues.
         </p>
       </div>
-    </div>
+    </>
   );
 }
 
